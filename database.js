@@ -6,7 +6,7 @@ class database {
   connect() {
     mongoose
       .connect(
-        "mongodb+srv://shubhamjr:jrshubham@cluster0.0m5tt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+        "mongodb+srv://shubhamjr:<password>@cluster0.0m5tt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
       )
       .then(() => console.log("database connected"))
       .catch((err) => {
