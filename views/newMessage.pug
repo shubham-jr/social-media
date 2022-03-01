@@ -1,0 +1,13 @@
+extends layouts/main-layout.pug
+
+block content  
+    .chatPageConatiner
+        .chatTitleBar 
+            label(for="userSearchTextBox") To:
+            #selectedUsers
+                input#userSearchTextBox(type="text",name="" placeholder="type the name of the person...")    
+        .resultsContainer
+        button#createChatButton(disabled) Create Chat 
+
+block scripts 
+    script(src="/js/inboxPage.js")     
