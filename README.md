@@ -5,9 +5,9 @@ See live=> https://jr-social.herokuapp.com/
 Having features like 
 
 <ul>
-  <li>Tweets</li>
+  <li>Post</li>
 
-<li>Likes, comments and retweets</li>
+<li>Likes, comments and share</li>
 
 <li>Profile pages</li>
 
